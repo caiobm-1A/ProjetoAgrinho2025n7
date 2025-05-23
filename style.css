@@ -35,6 +35,49 @@ img {
     max-width: 90%;
 }
 
+
+
+.cta-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: var(--secondary-color);
+    color: var(--text-color);
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: var(--button-hover);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--primary-color);
+    color: white;
+}
+
+footer .cta-footer {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .cta-footer:hover {
+    text-decoration: underline;
+}
+
+iframe {
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .conteudo {
         width: 90%;
