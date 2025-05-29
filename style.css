@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
 
 :root {
     --primary-color: #026773;
@@ -8,6 +8,12 @@
     --button-hover: #012E40;
     --font-body: "Chocolate Classical Sans", serif;
     --font-titulo: "Rakkas", serif;
+}
+
+.rowdies-regular {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 * {
@@ -32,6 +38,7 @@ p {
 }
 
 img {
+    margin-top: 20px;
     max-width: 90%;
     border-radius: 20px;
 }
@@ -43,10 +50,14 @@ header {
     padding: 20px;
 }
 
-header h1 {
+header span {
+    font-size: 2em;
     font-family: var(--font-titulo);
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
     margin-bottom: 10px;
-    border: 2px solid white;
+    border: 5px solid white;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
